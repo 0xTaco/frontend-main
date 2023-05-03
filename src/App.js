@@ -11,7 +11,7 @@ import { networks } from './utils/networks';
 const TWITTER_HANDLE = 'tacofinancexyz';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const tld = '.learnweb3dao';
-const CONTRACT_ADDRESS = '0x29Ff0139ff9FC8184982b34706256C8740386D97';
+const CONTRACT_ADDRESS = '0xb041c90d2B9Cf4a04814Ee734eAc582EE376052f';
 
 const OpenSeaLink = (props) => {
 	return (
@@ -333,12 +333,16 @@ const App = () => {
 					  <div className="mew-me">
 					  <div className="mew1">
 						  <div className="lolia">
-							  <p className="lolia1">Seed Sale Hardcap:</p>
-							  <p className="lolia2">10.0 ETH</p>
+							  <p className="lolia1">Presale Hardcap:</p>
+							  <p className="lolia2">15.0 ETH</p>
+						  </div>
+						  <div className="lolia">
+							  <p className="lolia1">Presale Softcap:</p>
+							  <p className="lolia2">7.5 ETH</p>
 						  </div>
 						  <div className="lolia">
 							  <p className="lolia1">Token sale rate:</p>
-							  <p className="lolia2">$0.08 per token</p>
+							  <p className="lolia2">$0.1 per token</p>
 						  </div>
 						  <div className="lolia">
 						  <p className="lolia1">Contributed:</p>
@@ -350,7 +354,7 @@ const App = () => {
 						  </div>
 						  <div className="lolia pb20">
 						  <p className="lolia1">Airdrop bonus:</p>
-							  <p className="lolia2">30% veTaco</p>
+							  <p className="lolia2">20% veTaco</p>
 						  </div>
 						  {/*<div className="lolia">
 						  <p className="lolia1">Total amount Contributed:</p>
